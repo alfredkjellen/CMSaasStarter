@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Footer from "$lib/components/Footer.svelte"
+
   let isEurope = false
   try {
     isEurope = Intl.DateTimeFormat()
@@ -19,3 +21,5 @@
     </div>
   </div>
 </div>
+
+<Footer></Footer>

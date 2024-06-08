@@ -1,6 +1,7 @@
 <script lang="ts">
   import PricingModule from "./pricing_module.svelte"
   import { WebsiteName } from "./../../../config"
+  import Footer from "$lib/components/Footer.svelte"
 
   type PlanFeatureRow = {
     name: string
@@ -213,3 +214,5 @@
     </div>
   </div>
 </div>
+
+<Footer></Footer>
